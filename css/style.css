@@ -160,7 +160,7 @@ a:focus {
 #h {
   background: url(/img/AllyB4.jpg);
 
-  padding-top: 300px;
+  padding-top: 500px;
   background-attachment: relative;
   background-position: center center;
   min-height: 900px;
@@ -303,7 +303,6 @@ a:focus {
 
 /* HEADER 2 - PORTFOLIO SECTION */
 #h2 {
-  background: url(../img/header-2.jpg) no-repeat center top;
   padding-top: 5px;
   background-attachment: relative;
   background-position: center center;
@@ -352,127 +351,4 @@ a:focus {
 
 .contact-form label {
   color: #999;
-}
-
-.contact-form input,
-.contact-form textarea {
-  padding: 10px 12px;
-  border-radius: 0;
-  box-shadow: none;
-  font-size: 14px;
-  height: auto;
-}
-
-.contact-form .form-send {
-  text-align: center;
-}
-
-.contact-form .form-send button {
-  background: #22a7f0;
-  border: 0;
-  padding: 14px 40px;
-  color: #fff;
-  transition: 0.4s;
-  cursor: pointer;
-  font-size: 16px;
-  border-radius: 50px;
-}
-
-.contact-form .form-send button:hover {
-  background: #5cc5ff;
-}
-
-.contact-form .validate {
-  display: none;
-  color: red;
-  margin: 0 0 15px 0;
-  font-weight: 400;
-  font-size: 13px;
-}
-
-.contact-form .loading {
-  display: none;
-  color: #555;
-  background: #fff;
-  text-align: center;
-  padding: 15px;
-  margin: 15px 0;
-}
-
-.contact-form .loading:before {
-  content: "";
-  display: inline-block;
-  border-radius: 50%;
-  width: 24px;
-  height: 24px;
-  border: 3px solid #18d26e;
-  border-top-color: #eee;
-  -webkit-animation: animate-loading 1s linear infinite;
-  animation: animate-loading 1s linear infinite;
-}
-
-@-webkit-keyframes animate-loading {
-  0% {
-    -webkit-transform: rotate(0deg);
-    transform: rotate(0deg);
-  }
-
-  100% {
-    -webkit-transform: rotate(360deg);
-    transform: rotate(360deg);
-  }
-}
-
-@keyframes animate-loading {
-  0% {
-    -webkit-transform: rotate(0deg);
-    transform: rotate(0deg);
-  }
-
-  100% {
-    -webkit-transform: rotate(360deg);
-    transform: rotate(360deg);
-  }
-}
-
-.contact-form .error-message {
-  display: none;
-  color: #fff;
-  background: #ed3c0d;
-  text-align: center;
-  padding: 15px;
-  font-weight: 600;
-  margin: 15px 0;
-}
-
-.contact-form .sent-message {
-  display: none;
-  color: #fff;
-  background: #18d26e;
-  text-align: center;
-  padding: 15px;
-  font-weight: 600;
-  margin: 15px 0;
-}
-
-/* Copyrights */
-
-#copyrights {
-  background: #22a7f0;
-  padding: 20px 0;
-  text-align: center;
-}
-
-#copyrights p {
-  margin-bottom: 5px;
-  color: #fff;
-  font-size: 16px;
-}
-
-#copyrights a {
-  color: #fff;
-}
-
-.credits {
-  color: #fff;
 }
