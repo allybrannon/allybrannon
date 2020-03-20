@@ -158,12 +158,12 @@ a:focus {
 
 /* HEADER SECTION */
 #h {
-  background: url(/img/AllyB2.jpeg);
+  background: url(/img/AllyB4.jpg);
 
   padding-top: 300px;
   background-attachment: relative;
   background-position: center center;
-  min-height: 800px;
+  min-height: 900px;
   width: 100%;
 
   -webkit-background-size: 100%;
