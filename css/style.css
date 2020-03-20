@@ -148,12 +148,15 @@ a:focus {
   color: #2f2f2f;
 }
 
+.dmbutton {
+  color: white;
+}
 .dmbutton:hover,
 .dmbutton:active,
 .dmbutton:focus {
-  color: #ffffff;
-  background-color: #222222;
-  border-color: #ffffff;
+  color: white;
+  background-color: transparent;
+  border-color: white;
 }
 
 /* HEADER SECTION */
@@ -234,7 +237,7 @@ a:focus {
 .tpl6 .dmbutton {
   display: inline-block;
   margin: 30px 5px 20px 5px;
-  font-size: 13px;
+  font-size: 30px;
 }
 
 .tpl6 .bg {
